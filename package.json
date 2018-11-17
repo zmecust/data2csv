@@ -1,6 +1,6 @@
 {
   "name": "data2csv",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Data list export to csv file",
   "main": "index.js",
   "scripts": {
