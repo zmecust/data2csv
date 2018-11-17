@@ -50,5 +50,9 @@ then add to your `app.js` file (before the route handling middleware)
 app.use(require('./middleware.js'));
 ````
 
+# Contact
+
+If you have any questions, please contact me `root@laravue.org`
+
 # License
 The MIT license
