@@ -52,7 +52,7 @@ app.use(require('./middleware.js'));
 
 # Contact
 
-If you have any questions, please contact me `root@laravue.org`
+If you have any questions, please contact me **`root@laravue.org`**
 
 # License
 The MIT license
