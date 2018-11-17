@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/zmecust/data2csv.svg)](https://travis-ci.org/zmecust/data2csv) [![npm version](https://www.npmjs.com/package/data2csv.svg)](https://www.npmjs.com/package/data2csv)
+[![Build Status](https://travis-ci.org/zmecust/data2csv.svg)](https://travis-ci.org/zmecust/data2csv) [![npm version](https://badge.fury.io/js/data2csv.svg)](https://badge.fury.io/js/data2csv)
 
 # data-to-csv
 
