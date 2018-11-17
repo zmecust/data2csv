@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zmecust/data2csv.svg)](https://travis-ci.org/zmecust/data2csv)
+
 # data-to-csv
 
 Middleware for export data list to csv file.
