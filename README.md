@@ -1,4 +1,4 @@
-# data2csv &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zmecust/data2csv/LICENSE)[![Build Status](https://travis-ci.org/zmecust/data2csv.svg)](https://travis-ci.org/zmecust/data2csv) [![npm version](https://badge.fury.io/js/data2csv.svg)](https://badge.fury.io/js/data2csv)
+# data2csv &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zmecust/data2csv/LICENSE) [![Build Status](https://travis-ci.org/zmecust/data2csv.svg)](https://travis-ci.org/zmecust/data2csv) [![npm version](https://badge.fury.io/js/data2csv.svg)](https://badge.fury.io/js/data2csv)
 
 Middleware for export data list to csv file.
 
