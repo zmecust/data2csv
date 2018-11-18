@@ -20,9 +20,9 @@ describe('data to csv', () => {
       { label: 'Name', value: 'name', default: '-' },
     ];
 
-    const newDate = data2csv.convertJsonToCSV(data, fields);
+    const csv = data2csv.convertJsonToCSV(data, fields);
 
-    newDate.should.equal('Code,Name\n123123,name123\n-,name456\n');
+    csv.should.equal('Code,Name\n123123,name123\n-,name456\n');
 
     done();
   });

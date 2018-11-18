@@ -14,6 +14,7 @@ If you have a api for getting data lists, but if you want to export these data l
 
 First, you neend to set request headers: 'Accept' to 'text/csv', but not to 'application/json'.
 
+and then add middleware
 ````javascript
 'use strict';
 
@@ -32,20 +33,22 @@ const fields = [
 const handler = async (data, req, res) => {
   // data = [{}, {}, ...];
   // for ex. => data = [{ code: '123', name: 'name123' }, { code: '', name: 'name456' } ];
-  const newData = data2csv.convertJsonToCSV(data, fields);
+  const csv = data2csv.convertJsonToCSV(data, fields);
 
-  // newData = 'Code,Name\n123123,name123\n-,name456\n'
+  // csv = 'Code,Name\n123123,name123\n-,name456\n'
   // Code   Name
   // 123123 name123
   // -      name456
 
-  return newData;
+  const filename = 'the export csv file name you want to call';
+
+  return { csv, filename };
 };
 
 module.exports = data2csv.mw(handler);
 ````
 
-then add to your `app.js` file (before the route handling middleware)
+then add middleware to your `app.js` file (before the route handling middleware)
 ````javascript
 app.use(require('./middleware.js'));
 ````
