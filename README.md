@@ -2,7 +2,7 @@
 
 Middleware for export data list to csv file.
 
-If you have a api for getting data lists, but if you want to export these data lists to csv file, then only one thing you can do is to using this middleware package, but on need to refactor your api code.
+If you have a api for getting data lists, but if you want to export these data lists to csv file, then only one thing you can do is to using this middleware package, but no need to refactor your api code.
 
 
 ## Getting started
